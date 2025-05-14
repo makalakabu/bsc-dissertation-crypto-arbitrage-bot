@@ -1,0 +1,31 @@
+# requirements.txt
+# Dependencies for Crypto Arbitrage Bot
+
+# Core HTTP and WebSocket
+requests
+websockets
+websocket-client
+
+# Environment Variables
+python-dotenv
+
+# Email Notifications
+smtplib  # (built-in, no pip install needed)
+yagmail  # optional if you prefer a wrapper
+
+# Logging and Debugging
+loguru  # optional if you want advanced logging
+
+# Testing
+pytest
+
+# Optional: Pretty output/logs
+rich
+
+# Only if you use pandas/json utilities
+pandas
+
+matplotlib
+
+# If you simulate timestamps or delay logic
+dateparser

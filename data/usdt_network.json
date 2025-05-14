@@ -1,0 +1,151 @@
+{
+  "Binance": [
+    {
+      "name": "BNB Smart Chain (BEP20)",
+      "fee": 0.0,
+      "minWd": 10.0
+    },
+    {
+      "name": "EOS",
+      "fee": 1.0,
+      "minWd": 10.0
+    },
+    {
+      "name": "NEAR Protocol",
+      "fee": 0.2,
+      "minWd": 10.0
+    },
+    {
+      "name": "AVAX C-Chain",
+      "fee": 0.15,
+      "minWd": 0.3
+    },
+    {
+      "name": "Aptos",
+      "fee": 0.01,
+      "minWd": 10.0
+    },
+    {
+      "name": "Arbitrum One",
+      "fee": 0.13,
+      "minWd": 0.26
+    },
+    {
+      "name": "Asset Hub (Polkadot)",
+      "fee": 0.7,
+      "minWd": 10.0
+    },
+    {
+      "name": "CELO",
+      "fee": 0.03,
+      "minWd": 10.0
+    },
+    {
+      "name": "Ethereum (ERC20)",
+      "fee": 1.5,
+      "minWd": 18.0
+    },
+    {
+      "name": "KAVAEVM",
+      "fee": 0.2,
+      "minWd": 10.0
+    },
+    {
+      "name": "Optimism",
+      "fee": 0.016,
+      "minWd": 0.032
+    },
+    {
+      "name": "Polygon POS",
+      "fee": 0.02,
+      "minWd": 4.0
+    },
+    {
+      "name": "Scroll",
+      "fee": 0.1,
+      "minWd": 10.0
+    },
+    {
+      "name": "Solana",
+      "fee": 0.5,
+      "minWd": 30.0
+    },
+    {
+      "name": "Tezos",
+      "fee": 0.1,
+      "minWd": 10.0
+    },
+    {
+      "name": "The Open Network",
+      "fee": 0.3,
+      "minWd": 5.0
+    },
+    {
+      "name": "Tron (TRC20)",
+      "fee": 1.0,
+      "minWd": 10.0
+    },
+    {
+      "name": "opBNB",
+      "fee": 0.0,
+      "minWd": 20.0
+    }
+  ],
+  "OKX": [
+    {
+      "name": "TRC20",
+      "fee": 1.7,
+      "minWd": 2.0
+    },
+    {
+      "name": "ERC20",
+      "fee": 0.63,
+      "minWd": 2.0
+    },
+    {
+      "name": "X Layer",
+      "fee": 0.1,
+      "minWd": 0.0001
+    },
+    {
+      "name": "Aptos",
+      "fee": 0.03,
+      "minWd": 0.1
+    },
+    {
+      "name": "Arbitrum One",
+      "fee": 0.098,
+      "minWd": 0.1
+    },
+    {
+      "name": "Avalanche C-Chain",
+      "fee": 0.22,
+      "minWd": 0.01
+    },
+    {
+      "name": "Optimism",
+      "fee": 0.15,
+      "minWd": 1.0
+    },
+    {
+      "name": "Polygon",
+      "fee": 0.8,
+      "minWd": 0.01
+    },
+    {
+      "name": "Solana",
+      "fee": 1.0,
+      "minWd": 0.1
+    },
+    {
+      "name": "TON",
+      "fee": 0.15,
+      "minWd": 0.0001
+    },
+    {
+      "name": "OKTC",
+      "fee": 0.0,
+      "minWd": 0.0
+    }
+  ]
+}
