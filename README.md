@@ -92,7 +92,7 @@ ARBITRAGE_PROFIT_THRESHOLD = 0.5  # %
 python price_updater.py
 ```
 
-## 📧 Email Format Example
+## Email Format Example
 
 Subject:  
 ```
