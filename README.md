@@ -1,8 +1,22 @@
-# 💸 Crypto Arbitrage Bot
+# Crypto Arbitrage Bot
 
-This project is a fully asynchronous, real-time cryptocurrency arbitrage detection bot that monitors price discrepancies between Binance and OKX exchanges and executes simulated trades with detailed fee and network cost accounting.
+This project implements a cryptocurrency arbitrage trading bot that exploits price differences between exchanges to generate potential profit. The bot monitors selected trading pairs and identifies arbitrage opportunities in real time.
 
-## 📦 Project Structure
+
+## Academic Context
+This project was developed as part of the completion of the BSc degree at the University of Sussex. The accompanying dissertation is included in this repository and provides a comprehensive explanation of the system.
+
+## Dissertation Coverage
+For a deeper understanding of the project, please refer to the attached `Final_Report.pdf`, which includes:
+- Bot architecture and design
+- Implementation details
+- Outputs
+- Limitations and challenges
+- Suggestions for further development
+
+
+
+## Project Structure
 
 ```
 .
@@ -19,31 +33,31 @@ This project is a fully asynchronous, real-time cryptocurrency arbitrage detecti
 ├── arbitrage_opportunities.csv# Log of arbitrage opportunities found
 ```
 
-## ⚙️ Features
+## Features
 
-- 📈 **Live Order Book & Price Updates**  
+- **Live Order Book & Price Updates**  
   Uses Binance and OKX WebSockets for real-time price and order depth data.
 
-- 📉 **Arbitrage Simulation Engine**  
+-  **Arbitrage Simulation Engine**  
   Considers:
   - Maker/taker trading fees  
   - Withdrawal network costs  
   - Order book liquidity  
   - Budget constraints  
 
-- ✉️ **Email Alerts**  
+- **Email Alerts**  
   Notifies the user with details of the most profitable trade opportunity.
 
-- 🧠 **Smart Network Selection**  
+- **Smart Network Selection**  
   Finds the cheapest common network between exchanges for transfers.
 
-- 🕓 **Daily Symbol Refresh**  
+- **Daily Symbol Refresh**  
   Automatically updates symbol lists and mappings every UK midnight.
 
-- 📊 **CSV Logging**  
+- **CSV Logging**  
   Stores all profitable trades in `arbitrage_opportunities.csv`.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone and Install
 
@@ -95,12 +109,12 @@ net_profit_percentage: 2.75
 ...
 ```
 
-## 🔒 Security Notes
+## Security Notes
 
 - Never share your API keys or credentials.
 - Use separate sub-accounts with withdrawal limits if deploying to production.
 
-## 🛠 Future Ideas
+## Future Ideas
 
 - Auto-execution on both exchanges
 - Web dashboard for monitoring
